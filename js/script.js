@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "pierwsze zadanie",
-            done: false,
-        },
-        {
-            content: "drugie zadanie",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -36,7 +27,7 @@
             });
         });
 
-    const toggleDoneButtons = document.querySelectorAll(".js-done");
+        const toggleDoneButtons = document.querySelectorAll(".js-done");
 
         toggleDoneButtons.forEach((toggleDoneButton, index) => {
             toggleDoneButton.addEventListener("click", () => {
@@ -77,9 +68,9 @@
             addNewTask(newTaskContent);
             newTaskElement.value = "";
         }
-      
+
         newTaskElement.focus();
-        
+
 
         // addNewTask(newTaskContent);
 

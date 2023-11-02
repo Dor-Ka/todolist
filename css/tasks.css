@@ -15,18 +15,18 @@
 
 .tasks__button {
     color: white;
-    border:none;
+    border: none;
     width: 20px;
     height: 20px;
     padding: 0px;
 }
 
 .tasks__button--taskDone {
-background: green;
+    background: green;
 }
 
 .tasks__button--taskDone:hover {
-background: hsl(120, 100%, 30%);
+    background: hsl(120, 100%, 30%);
 }
 
 .tasks__button--taskDone:active {
@@ -34,7 +34,7 @@ background: hsl(120, 100%, 30%);
 }
 
 .tasks__button--remove {
-background: hsl(0, 100%, 50%);
+    background: hsl(0, 100%, 50%);
 }
 
 .tasks__button--remove:hover {
@@ -45,19 +45,10 @@ background: hsl(0, 100%, 50%);
     background: hsl(0, 100%, 60%);
 }
 
+.tasks__content {
+    word-break: break-word;
+}
+
 .tasks__content--done {
     text-decoration: line-through;
 }
-
-
-
-
-
-// `
-//  <li class="task__item js-task">
-//  <button class="tasks__button tasks__button--taskDone js-toggleDone">
-//  ${task.done ? "✓" : ""} </button>
-//  <span class="tasks__content${ task.done ? "tasks__content--done" : ""}"
-//  <button class="tasks__button tasks__button--remove js-remove">🗑</button>
-
-//  </li> `;
