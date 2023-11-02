@@ -48,3 +48,16 @@ background: hsl(0, 100%, 50%);
 .tasks__content--done {
     text-decoration: line-through;
 }
+
+
+
+
+
+// `
+//  <li class="task__item js-task">
+//  <button class="tasks__button tasks__button--taskDone js-toggleDone">
+//  ${task.done ? "✓" : ""} </button>
+//  <span class="tasks__content${ task.done ? "tasks__content--done" : ""}"
+//  <button class="tasks__button tasks__button--remove js-remove">🗑</button>
+
+//  </li> `;
