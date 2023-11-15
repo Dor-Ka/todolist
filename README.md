@@ -2,9 +2,9 @@
 ## demo:
 [link to the page:](https://dorotakar.github.io/todo-list/)
 
-![demo](https://github.com/DorotaKar/todo-list/blob/main/image/img-readme.png)
+![demo](https://github.com/DorotaKar/todo-list/blob/main/images/img-readme.png)
 
-![demo-mobile](https://github.com/DorotaKar/todo-list/blob/main/image/img-readme-mobile.png)
+![demo-mobile](https://github.com/DorotaKar/todo-list/blob/main/images/img-readme-mobile.png)
 
 ## General info:
 This project is a simple website created for practising basic **HTML**, **CSS** and **JavaScript** skills.
