@@ -27,6 +27,7 @@
 
 .tasks__button--taskDone:hover {
     background: hsl(120, 100%, 30%);
+    transition: 1s;
 }
 
 .tasks__button--taskDone:active {
@@ -34,15 +35,16 @@
 }
 
 .tasks__button--remove {
-    background: hsl(0, 100%, 50%);
+    background: hsl(0, 100%, 40%);
 }
 
 .tasks__button--remove:hover {
-    background: hsl(0, 100%, 55%);
+    background: hsl(0, 100%, 50%);
+    transition: 1s;
 }
 
 .tasks__button--remove:active {
-    background: hsl(0, 100%, 60%);
+    background: hsl(0, 100%, 70%);
 }
 
 .tasks__content {
