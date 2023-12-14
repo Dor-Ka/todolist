@@ -5,10 +5,17 @@
 }
 
 .section__header {
-    font-size: 20px;
     margin: 0;
     padding: 20px;
     border-bottom: 1px solid #ddd;
+}
+
+.section__header--title {
+    font-size: 20px;
+}
+
+.section__header--tasks {
+    
 }
 
 .section__body {

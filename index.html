@@ -15,6 +15,7 @@
     <link href="css/section.css" rel="stylesheet">
     <link href="css/tasks.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -27,16 +28,23 @@
             <h1> Lista zadań</h1>
         </header>
         <section class="section">
-            <h2 class="section__header"> Dodaj nowe zadanie</h2>
+            <h2 class="section__header section__header--title"> Dodaj nowe zadanie</h2>
             <div class="section__body">
                 <form class="form js-form">
                     <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
-                    <button class="form__button">Dodaj zadanie</button>
+                    <button class="buttons__form">Dodaj zadanie</button>
                 </form>
             </div>
         </section>
         <section class="section">
-            <h2 class="section__header"> Lista zadań</h2>
+            <header class="section__header section__header--tasks">
+                <h2 class="section__header--title"> Lista zadań</h2>
+                <div>
+                    <button class="buttons">Pokaż ukończone</button>
+                    <button class="buttons">Ukończ wszystkie</button>
+                </div>
+            </header>
+            
             <div class="section__body">
                 <ul class="tasks js-tasks"></ul>
             </div>

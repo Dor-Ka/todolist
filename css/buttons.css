@@ -1,0 +1,31 @@
+.buttons {
+    border: none;
+    background-color: transparent;
+    color: hsl(180, 100%, 25%);
+};
+
+.buttons__form {
+    padding: 10px;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+}
+
+.buttons__form:hover {
+    background-color: hsl(180, 100%, 30%);
+    transform: scale(1.02);
+}
+
+.buttons__form:active {
+    background-color: hsl(180, 100%, 35%);
+}
+
+
+.buttons:hover {
+    color:hsl(180, 80%, 35%);
+};
+
+.buttons:active {
+    color:hsl(180, 80%, 45%);
+
+};
