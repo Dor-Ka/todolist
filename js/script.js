@@ -49,7 +49,7 @@
     });
     };
 
-    const render = () => {
+    const renderTasks = () => {
         let htmlString = " ";
 
         for (const task of tasks) {
@@ -66,9 +66,15 @@
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
+    };
+
+    const render = () => {
+        renderTasks();
         bindRemoveEvents();
         bindtoggleDoneEvents();
     };
+
+
 
     const onFormSubmit = (event) => {
         event.preventDefault();
