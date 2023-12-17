@@ -11,10 +11,11 @@
     font-size: 20px;
 }
 
-.section__header{
+.section__header {
     margin: 0;
     padding: 20px;
-    border-bottom: 1px solid hsl(0, 0%, 87%);font-size: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 87%);
+    font-size: 20px;
     display: grid;
     align-items: center;
     grid-template-columns: auto auto;
@@ -33,9 +34,6 @@
     font-size: 20px;
 }
 
-
-
 .section__body {
     padding: 20px;
-
 }
