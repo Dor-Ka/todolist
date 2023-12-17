@@ -1,0 +1,32 @@
+.buttons {
+display: flex;
+flex-wrap: wrap;
+}
+
+.buttons__button {
+    border: none;
+    background-color: transparent;
+    color: hsl(180, 100%, 25%);
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+@media(max-width: 767px) {
+    .buttons__button {
+        flex-basis: 100%;
+        margin: 10px;
+      }
+}
+
+
+.buttons__button:hover {
+    color:hsl(180, 100%, 30%);
+}
+
+.buttons__button:active {
+    color:hsl(180, 100%, 35%);
+}
+
+.buttons__button:disabled {
+    color:hsl(0, 0%, 70%);
+}

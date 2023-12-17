@@ -13,6 +13,10 @@
     padding: 10px;
 }
 
+.tasks__item--hidden {
+    display: none;
+}
+
 .tasks__button {
     color: white;
     border: none;
@@ -23,11 +27,11 @@
 
 .tasks__button--taskDone {
     background: green;
+    transition: 0.4s;
 }
 
 .tasks__button--taskDone:hover {
     background: hsl(120, 100%, 30%);
-    transition: 1s;
 }
 
 .tasks__button--taskDone:active {
@@ -36,11 +40,11 @@
 
 .tasks__button--remove {
     background: hsl(0, 100%, 40%);
+    transition: 0.4s;
 }
 
 .tasks__button--remove:hover {
     background: hsl(0, 100%, 50%);
-    transition: 1s;
 }
 
 .tasks__button--remove:active {
