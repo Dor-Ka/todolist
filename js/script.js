@@ -28,24 +28,26 @@
         render();
     };
 
-    const bindEvents = () => {
+   
+    const bindRemoveEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
 
-        removeButtons.forEach((removeButton, index) => {
+        removeButtons.forEach((removeButton, taskIndex) => {
             removeButton.addEventListener("click", () => {
-                removeTask(index);
+                removeTask(taskIndex);
             });
         });
+    };
 
-        const toggleDoneButtons = document.querySelectorAll(".js-done");
-
-        toggleDoneButtons.forEach((toggleDoneButton, index) => {
-            toggleDoneButton.addEventListener("click", () => {
-                toggleTaskDone(index);
-            });
+    const bindtoggleDoneEvents = () => {
+        const toggleDoneEvents = document.querySelectorAll(".js-done");
+        
+        toggleDoneEvents.forEach((toggleDoneEvents, taskIndex) => {
+            toggleDoneEvents.addEventListener("click", () => {
+                 toggleTaskDone(taskIndex);
         });
-
-    }
+    });
+    };
 
     const render = () => {
         let htmlString = " ";
@@ -64,7 +66,8 @@
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
-        bindEvents();
+        bindRemoveEvents();
+        bindtoggleDoneEvents();
     };
 
     const onFormSubmit = (event) => {
