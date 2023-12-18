@@ -30,6 +30,8 @@
 }
 
 .section__listTitle {
+    margin: 0px;
+    padding: 0px;
     border-bottom: none;
     font-size: 20px;
 }
