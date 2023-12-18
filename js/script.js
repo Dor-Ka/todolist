@@ -7,28 +7,21 @@
             ...tasks, { content: newTaskContent }
         ];
         render();
-    };
+    }; 
 
-    const removeTask = (taskIndex) => {
-        tasks = [
-            ...tasks.slice(0, taskIndex),
-            ...tasks.slice(taskIndex + 1),
-        ];
+    const removeTask = (element) => {
+        tasks = tasks.filter((task, taskIndex) => taskIndex !== element);
+
         render();
     };
 
-    const toggleTaskDone = (taskIndex) => {
-        tasks = [
-            ...tasks.slice(0, taskIndex),
-            {
-                ...tasks[taskIndex],
-                done: !tasks[taskIndex].done,
-            },
-            ...tasks.slice(taskIndex + 1),
-        ]
+    const toggleTaskDone = (tasksElement) => {
+        tasks = tasks.map((task, taskIndex) => (
+            taskIndex === tasksElement ? { ...task, done: !task.done } : task
+        ));
+
         render();
     };
-
 
     const bindRemoveEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
