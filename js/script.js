@@ -7,7 +7,7 @@
             ...tasks, { content: newTaskContent }
         ];
         render();
-    }; 
+    };
 
     const removeTask = (element) => {
         tasks = tasks.filter((task, taskIndex) => taskIndex !== element);
@@ -87,7 +87,7 @@
 
         buttonsElement.innerHTML = `
         <button class="buttons__button js-toggleHideDoneTasks"> 
-            ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+            ${tasks.some(({ done }) => done) && hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
 
         <button class="buttons__button js-markAllDone" 
