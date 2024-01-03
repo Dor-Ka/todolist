@@ -1,6 +1,6 @@
 # To do list
 ## demo:
-[link to the page:](https://dorotakar.github.io/todo-list/)
+[link to the page:]([https://dorotakar.github.io/todo-list/](https://dorotakar.github.io/todolist/))
 
 ![demo.img](https://github.com/DorotaKar/todo-list/blob/main/images/img-readme-2.png)
 
