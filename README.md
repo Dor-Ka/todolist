@@ -1,4 +1,4 @@
-# To do list - react
+# To do list
 ## About:
 Link to the page => [to do list](https://dorotakar.github.io/todolist/)
 
