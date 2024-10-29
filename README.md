@@ -1,6 +1,6 @@
 # To do list
 ## About:
-Link to the page => [to do list](https://dorotakar.github.io/todolist/)
+Link to the page => [to do list](https://dor-ka.github.io/todolist/)
 
 
 This project is a simple website created for practicing basic **HTML**, **CSS** and **JavaScript** skills.
